@@ -1,0 +1,12 @@
+package com.example.profesores;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProfesoresApiApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ProfesoresApiApplication.class, args);
+    }
+}
